@@ -1,4 +1,13 @@
-# buzzline-03-case
+# buzzline-03-badeniyan
+
+# Streaming Data, Project 3
+
+# Bukola Adeniyan  February 3rd, 2025.
+
+https://github.com/Queensdelight/buzzline-03-badeniyan/tree/main
+
+This is a professional project using Apache Kafka to create uniquie JSON and CSV producers and consumers to simulate streaming data. Python Version 3.11 was used, as well as Git for version control. 
+This project was forked from Dr. Case's project repository found [here](https://github.com/denisecase/buzzline-03-case). Much of the detailed instructions in this README.md were borrowed from Dr. Case's project specifications, and updated for my machine.
 
 Streaming data does not have to be simple text.
 Many of us are familiar with streaming video content and audio (e.g. music) files. 
@@ -47,14 +56,13 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.json_producer_case
+py -m producers.json_producer_badeniyan
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.json_producer_case
-```
+python3 -m producers.json_producer_badeniyan
 
 What did we name the topic used with JSON data? 
 Hint: See the producer code and [.env](.env).
@@ -69,13 +77,13 @@ Use the commands below to activate .venv, and start the consumer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m consumers.json_consumer_case
+py -m consumers.json_consumer_badeniyan
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.json_consumer_case
+python3 -m consumers.json_consumer_badeniyan
 ```
 
 What did we name the topic used with JSON data? 
